@@ -11,11 +11,9 @@
     grid-gap: 6px;
    
 }
+
 @media (max-width: 900px){
     .grid{
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 10px ;
-        
-
-    }
+        grid-template-columns: auto;
+     }
 }
